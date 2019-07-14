@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,400&display=swap');
+
 @import 'variables';
 
-body {
-    background: $primary-color;
-}
+@import './blocks/page-header';
+@import './blocks/navbar';
+@import './blocks/timer';
 
-h1 {
-    color: $text-color;
+body {
+  margin: 0;
+  padding: 0;
 }

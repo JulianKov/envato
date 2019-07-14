@@ -1,0 +1,27 @@
+.navbar {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.navbar__navlist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: $roboto;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  line-height: 63px;
+}
+
+.navbar__navitem {
+  cursor: pointer;
+  margin-left: 50px;
+  &:hover {
+    color: rgb(207, 207, 207);
+  }
+}

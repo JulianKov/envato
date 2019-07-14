@@ -4,7 +4,7 @@ const sass = require('gulp-sass');
 const reload = browserSync.reload;
 
 const src = {
-  scss: 'app/sass/*.scss',
+  scss: 'app/sass/**/*.scss',
   css: 'app/css',
   html: 'app/*.html'
 };
