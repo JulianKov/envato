@@ -1,0 +1,106 @@
+.elite-section {
+  margin-top: 160px;
+}
+
+.elite-section__divider {
+  z-index: 1;
+  position: relative;
+  height: 120px;
+  overflow: hidden;
+  &--bot {
+    margin-top: -1px;
+  }
+}
+
+.elite-section__content {
+  height: 460px;
+  background-color: #4b4d4f;
+}
+
+.elite-section__wrapper {
+  margin: 0 auto;
+  width: 1030px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: $roboto;
+  color: white;
+}
+
+.elite-section__badge {
+  flex-shrink: 0;
+  z-index: 2;
+  position: relative;
+  top: -194px;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  background-color: #e1652a;
+  box-shadow: 8px 11px 11px -2px rgba(0,0,0,0.75);
+}
+
+.elite-section__trapezium {
+  width: 165px;
+  position: relative;
+  top: 126px;
+  left: 69px;
+  border-bottom: 10px solid white;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+    &::before {
+      content: "";
+      position: absolute;
+      top: -34px;
+      left: 4px;
+      width: 79%;
+      border-bottom: 7px solid white;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 40px;
+      left: -34px;
+      width: 117%;
+      border-bottom: 13px solid white;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+    }
+}
+
+.elite-section__desctiption {
+  margin-top: 5px;
+  text-align: right;
+  width: 65%;
+}
+
+.elite-section__name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  position: relative;
+  top: 160px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.elite-section__title {
+  font-size: 50px;
+  margin-bottom: 22px;
+}
+
+.elite-section__desctiption {
+  font-size: 14px;
+}
+
+.elite-section__button {
+  width: 200px;
+  height: 55px;
+  border-radius: 14px;
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  background-color: #90d23d;
+}

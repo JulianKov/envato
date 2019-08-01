@@ -60,9 +60,7 @@
 .page-header__divider {
   z-index: 6;
   position: relative;
-  top: -120px;
-  left: 0;
-  background-color: transparent;
-  border-bottom: 120px solid white;
-  border-left: 100vw solid transparent;
+  top: -100px;
+  height: 120px;
+  overflow: hidden;
 }

@@ -1,0 +1,35 @@
+.speakers {
+  margin-top: 134px;
+  font-family: $roboto;
+}
+
+.speakers__wrapper {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.speakers__title {
+  font-size: 50px;
+  margin-bottom: 22px;
+}
+
+.speakers__description {
+  width: 61%;
+  font-size: 14px;
+}
+
+.speakers__block {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.speakers__card {
+  width: 296px;
+  height: 296px;
+  background-color: #90d23d;
+  margin-top: 44px;
+  border-radius: 15px;
+}

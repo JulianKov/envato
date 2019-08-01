@@ -1,0 +1,40 @@
+.sponsor {
+  margin-top: 178px;
+  color: white;
+  font-family: $roboto;
+  text-align: center;
+}
+
+.sponsor__body {
+  height: 460px;
+  width: 100%;
+  background-color: #4b4d4f;
+  padding: 18px 0;
+}
+
+.sponsor__wrapper {
+  width: 630px;
+  margin: 0 auto;
+}
+
+.sponsor__divider {
+  z-index: 1;
+  position: relative;
+  height: 120px;
+  overflow: hidden;
+  &--bot {
+    margin-top: -1px;
+  }
+}
+
+.sponsor__title {
+  font-size: 50px;
+  margin-top: 21px;
+  margin-bottom: 24px;
+}
+
+.sponsor__text {
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}

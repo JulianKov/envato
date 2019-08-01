@@ -8,5 +8,80 @@
 }
 
 .welcome-box__wrapper {
-  width: 1170px;
+  width: 1030px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.welcome-box__description {
+  padding-top: 50px;
+  width: 51%;
+  font-family: $roboto;
+
+  & h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  & p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.welcome-box__register {
+  margin-top: -225px;
+  background-color: white;
+  font-family: $roboto;
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid $gray;
+  & > * {
+    width: 78%;
+  }
+  & > h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 19px;
+  }
+  & > input {
+    font-size: 19px;
+    padding: 15px 16px;
+    border: 1px solid $gray;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    &:focus {
+      outline: none;
+      border-color: #90d23d;
+    }
+    &[type="button"] {
+      margin-top: 20px;
+      font-size: 22px;
+      color: white;
+      border: none;
+      width: 86%;
+      background-color: #90d23d;
+    }
+  }
+}
+
+.welcome-box__ps {
+  margin-top: -4px;
+  text-align: center;
+  width: 214px;
+  font-size: 15px;
+  & > p {
+    margin: 0;
+  }
 }
