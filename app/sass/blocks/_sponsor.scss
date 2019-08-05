@@ -6,7 +6,7 @@
 }
 
 .sponsor__body {
-  height: 460px;
+  height: 425px;
   width: 100%;
   background-color: #4b4d4f;
   padding: 18px 0;
@@ -22,9 +22,6 @@
   position: relative;
   height: 120px;
   overflow: hidden;
-  &--bot {
-    margin-top: -1px;
-  }
 }
 
 .sponsor__title {
@@ -37,4 +34,22 @@
   font-size: 14px;
   font-weight: 100;
   margin-bottom: 10px;
+}
+
+.sponsors__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.sponsors__button {
+  width: 200px;
+  height: 55px;
+  border-radius: 14px;
+  margin-top: 70px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  background-color: #90d23d;
 }
