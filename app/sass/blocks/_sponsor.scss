@@ -44,12 +44,7 @@
 }
 
 .sponsors__button {
-  width: 200px;
-  height: 55px;
-  border-radius: 14px;
+  @include button;
   margin-top: 70px;
   font-size: 18px;
-  color: white;
-  border: none;
-  background-color: #90d23d;
 }

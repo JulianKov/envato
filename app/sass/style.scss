@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,400&display=swap');
 
-@import './variables.scss';
+@import './variables';
+@import './mixins';
 
 @import './blocks/page-header';
 @import './blocks/navbar';
@@ -12,6 +13,7 @@
 @import './blocks/elite-section';
 @import './blocks/speakers';
 @import './blocks/sponsor';
+@import './blocks/past-events';
 
 body {
   margin: 0;

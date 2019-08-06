@@ -95,12 +95,5 @@
 }
 
 .elite-section__button {
-  width: 200px;
-  height: 55px;
-  border-radius: 14px;
-  margin-top: 30px;
-  font-size: 18px;
-  color: white;
-  border: none;
-  background-color: #90d23d;
+  @include button;
 }
