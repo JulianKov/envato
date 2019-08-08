@@ -628,6 +628,48 @@ td {
   border-radius: 5px;
   height: 60px; }
 
+.footer {
+  height: 220px;
+  background-color: #90d23d;
+  width: 100%;
+  margin-top: 60px; }
+
+.footer__wrapper {
+  width: 430px;
+  margin: 0 auto;
+  padding-top: 60px; }
+
+.footer__social {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 290px;
+  justify-content: space-between; }
+
+.footer__icon {
+  width: 45px;
+  height: 45px;
+  background-color: black; }
+  .footer__icon--facebook {
+    background: url("../../img/social_fb.svg"); }
+  .footer__icon--twitter {
+    background: url("../../img/social_twit.svg"); }
+  .footer__icon--linkedin {
+    background: url("../../img/social_link.svg"); }
+  .footer__icon--instagram {
+    background: url("../../img/social_ig.svg"); }
+  .footer__icon--vkontakte {
+    background: url("../../img/social_vk.svg"); }
+
+.footer__copyright {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 32px; }
+
 body {
   margin: 0;
   padding: 0; }
